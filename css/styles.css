@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+@font-face {
+    font-family: "Visitor";
+    src: url(../fonts/visitor.ttf);
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://i2.kym-cdn.com/photos/images/newsfeed/000/128/096/Nyancatless20110725-22047-2vf3z5.gif");
+}
+nav {
+  background-color: #FF99FF;
+  font-family: "Visitor";
+  padding: 2%;
+}
+ul {
+  display: inline;
+}
+li {
+  display: inline;
+  list-style: none;
+  font-size: 2em;
+}
+.bubbleContent {
+  font-size: 3em;
+  z-index: 1;
+  color: white;
+  width: 95%;
+  height: 45%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 3%;
+
+	border:1px solid rgba(0,0,0,0.5);
+	border-radius:10px 10px 10px 10px;
+	-webkit-box-shadow:
+		0 2px 6px rgba(0,0,0,0.5),
+		inset 0 1px rgba(255,255,255,0.3),
+		inset 0 10px rgba(255,255,255,0.2),
+		inset 0 10px 20px rgba(255,255,255,0.25),
+		inset 0 -15px 30px rgba(0,0,0,0.3);
+	-moz-box-shadow:
+		0 2px 6px rgba(0,0,0,0.5),
+		inset 0 1px rgba(255,255,255,0.3),
+		inset 0 10px rgba(255,255,255,0.2),
+		inset 0 10px 20px rgba(255,255,255,0.25),
+		inset 0 -15px 30px rgba(0,0,0,0.3);
+	box-shadow:
+		0 2px 6px rgba(0,0,0,0.5),
+		inset 0 1px rgba(255,255,255,0.3),
+		inset 0 10px rgba(255,255,255,0.2),
+		inset 0 10px 20px rgba(255,255,255,0.25),
+		inset 0 -15px 30px rgba(0,0,0,0.3);
+	background:rgba(0,0,0,0.25);
+}
+h4 {
+  margin: 0;
+  font-family: "visitor";
+  font-size: 5em;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  margin: 0;
+  font-family: "visitor";
+  font-size: 4em;
+  text-align: center;
+
+}
+embed {
+  position: absolute;
+}
+img {
+  height: 13%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+.nyan {
+  position: absolute;
+  right: 0;
+}
+/* Scoreboard: */
+.scoreBoard {
+  background-image: linear-gradient(-180deg, #E3F000 0%, #21DD00 100%);
+  border: 6px solid #FFFB01;
+  box-shadow: 0px 2px 4px 4px rgba(0,0,0,0.50);
+  border-radius: 4px;
+  height: 22%;
+  position: relative;
+  bottom: 1px;
+  margin-bottom: 4%;
+}
+.restartButton {
+  font-family: "visitor";
+  font-size: 3em;
+  padding: 1.5%;
+  padding-right: 5%;
+  padding-left: 5%;
+  width: 10%;
+  height: 5%;
+  background-image: linear-gradient(-180deg, #FFFFE1 0%, #FFFF01 100%);
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+}
